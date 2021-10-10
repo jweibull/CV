@@ -23,7 +23,7 @@ footer {
 
 h1 {
   color: #222831;
-  font-size: 5.625rem;
+  font-size: 5rem;
   margin: 3% auto 0 auto;
   font-family: "Sacramento", cursive;
 }
@@ -31,7 +31,7 @@ h1 {
 h2 {
   color: #222831;
   font-family: "Lora", serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: normal;
   padding-bottom: 6%;
 }
@@ -133,23 +133,23 @@ a:hover {
 .top-code {
   position: absolute;
   right: 10%;
-  top: 25%;
-  width: 5%;
-  height: 5%;
+  top: 2%;
+  width: 7%;
+  height: 7%;
 }
 
 .mug-img {
   position: absolute;
   left: 5%;
-  top: 5%;
-  width: 10%;
-  height: 10%;
+  top: 17%;
+  width: 7%;
+  height: 7%;
 }
 
 .mug-img-left {
   position: absolute;
   right: 8%;
-  bottom: 40%;
+  bottom: 56%;
   width: 10%;
   height: 10%;
 }
@@ -157,7 +157,7 @@ a:hover {
 .bottom-code {
   position: absolute;
   left: 8%;
-  bottom: 45%;
+  bottom: 25%;
   width: 7%;
   height: 7%;
 }
@@ -171,7 +171,7 @@ a:hover {
 .cloud-img {
   position: absolute;
   right: 12%;
-  bottom: 10%;
+  bottom: 17%;
   width: 12%;
   height: 12%;
 }
