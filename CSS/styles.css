@@ -1,10 +1,25 @@
 header {
   background-color: #3f72af;
-  position: relative;
+  position: fixed;
   padding: 1% 0px 1% 0px;
+  width: 100%;
   text-align: right;
   font-family: "Lora", serif;
   font-size: 1.2rem;
+}
+
+.brand-img {
+  padding-right: 4%;
+  color:whitesmoke;
+}
+
+.brand-content {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
 }
 
 body {
@@ -24,7 +39,7 @@ footer {
 h1 {
   color: #222831;
   font-size: 5rem;
-  margin: 3% auto 0 auto;
+  margin: 3% auto 10% auto;
   font-family: "Sacramento", cursive;
 }
 
@@ -33,6 +48,7 @@ h2 {
   font-family: "Lora", serif;
   font-size: 2rem;
   font-weight: normal;
+  margin-bottom: 3%;
   padding-bottom: 6%;
 }
 
@@ -43,6 +59,7 @@ h2 {
 h3 {
   color: #222831;
   font-family: "Lora", serif;
+  margin-bottom: 3%;
 }
 
 hr {
@@ -55,6 +72,7 @@ hr {
   margin-top: 10%;
   margin-bottom: 10%;
 }
+
 .divider {
   margin-top: 0;
   margin-bottom: 0;
@@ -62,7 +80,7 @@ hr {
 
 p {
   color: #393e46;
-  margin: 1% 1%;
+  margin: 3% 1%;
 }
 
 a {
@@ -87,8 +105,9 @@ a:hover {
 .top-container {
   background-color: #c9d6df;
   position: relative;
-  padding-top: 5%;
-  padding-bottom: 10%;
+  z-index: -1;
+  padding-top: 25%;
+  padding-bottom: 20%;
 }
 
 .middle-container {
@@ -107,6 +126,7 @@ a:hover {
 .skill-row {
   width: 50%;
   margin: 1% auto 6% auto;
+  padding-bottom: 5%;
   text-align: left;
 }
 
@@ -124,16 +144,16 @@ a:hover {
   margin: 2% auto 4% auto;
 }
 
-.copyright {
-  color: #eaf6f6;
-  font-size: 0.75rem;
+#copyright {
+  color: whitesmoke;
+  font-size: 1rem;
   padding: 2% 0;
 }
 
 .top-code {
   position: absolute;
   right: 10%;
-  top: 2%;
+  top: 15%;
   width: 7%;
   height: 7%;
 }
@@ -141,7 +161,7 @@ a:hover {
 .mug-img {
   position: absolute;
   left: 5%;
-  top: 17%;
+  top: 25%;
   width: 7%;
   height: 7%;
 }
@@ -149,9 +169,9 @@ a:hover {
 .mug-img-left {
   position: absolute;
   right: 8%;
-  bottom: 56%;
-  width: 10%;
-  height: 10%;
+  bottom: 52%;
+  width: 7%;
+  height: 7%;
 }
 
 .bottom-code {
@@ -194,12 +214,6 @@ a:hover {
   margin-right: 4%;
 }
 
-.linkedin-badge {
-  width: 265;
-  height: 305;
-  margin: 0 auto 0 auto;
-}
-
 .contact-btn {
   background: #3f72af;
   background-image: -webkit-linear-gradient(top, #3f72af, #6486af);
@@ -211,7 +225,7 @@ a:hover {
   -moz-border-radius: 8;
   border-radius: 8px;
   font-family: "Lato", sans-serif;
-  color: #ffffff;
+  color: whitesmoke;
   font-size: 20px;
   padding: 1% 2% 1% 2%;
   text-decoration: none;

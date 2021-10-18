@@ -11,26 +11,76 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Sacramento&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/dad740f484.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="CSS/styles.css" />
     <link rel="icon" href="images/computer-img-1.png" />
   </head>
 
-  <!--<header>
-    <div class="header-container">
-      <a href="">link 1</a>
-      <a href="">link 2</a>
-      <a href="">link 3</a>  
-    </div>
-  </header>-->
-
+  <section id="header">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand brand-content" href=""><i class="fas fa-laptop-code brand-img"></i>Jon's Place</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#header">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#personal">Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </section>
   <body>
     <div class="top-container">
       <img class="top-code" src="images/tag.png" alt="tag-img" />
       <div class="title-text">
         <h1>I'm Jon,</h1>
-        <h2 class="first-page-desc">a <span class="pro">civil</span> engineer,</h2>
+        <h2 class="first-page-desc">
+          a <span class="pro">civil</span> engineer,
+        </h2>
         <h2 class="first-page-desc">a <span class="pro">dev</span>eloper,</h2>
-        <h2 class="first-page-desc">and ocassionally, </h2>
+        <h2 class="first-page-desc">and ocassionally,</h2>
         <h2>a <span class="pro">human</span> being.</h2>
       </div>
       <img class="mug-img" src="images/mug.png" alt="mug-img" />
@@ -40,89 +90,123 @@
       <img class="mug-img-left" src="images/mug.png" alt="mug-img" />
       <br />
     </div>
-    <div class="middle-container">
-      <hr class="divider"/>
-      <div class="profile">
-        <img
-          class="profile-img"
-          src="images/profile.png"
-          alt="jons-profile-img"
-        />
-        <p class="intro">
-          I am a civil engineer and a Fullstack .Net Core and Python Developer. 
-          Currently working at Radix Engenharia e Desenvolvimento de software.
-          Besides coding, I ❤️ coffee, reading, outdoor sports and engineering.
-        </p>
-      </div>
-      <hr />
-      <div class="skills">
-        <h2>Skills.</h2>
-        <div class="skill-row">
-          <img
-            class="code-img"
-            src="images/coding-img.png"
-            alt="code-img"
-          />
 
-          <h3>Design & Development</h3>
-          <p>
-            I started learning to code ealry at my first university years as a Electrical Engineer student. 
-            It was one of the most finanncially viable things I could use to work without investing a lot in.
-            Over time, I have gained a wealth of experience designing and developing from image processing
-            to web applications.
+    <div class="middle-container">
+      <hr class="divider" />
+      <section id="personal">
+        <div class="profile">
+          <img
+            class="profile-img"
+            src="images/profile.png"
+            alt="jons-profile-img"
+          />
+          <p class="intro">
+            I am a civil engineer and a Fullstack .Net Core and Python
+            Developer. Currently working at Radix Engenharia e Desenvolvimento
+            de software. Besides coding, I ❤️ coffee, reading, outdoor sports
+            and engineering.
           </p>
         </div>
-        <div class="skill-row">
+        <hr />
+      </section>
+      <section id="skills">
+        <div class="skills">
+          <h2>Skills.</h2>
+          <div class="skill-row">
+            <img class="code-img" src="images/coding-img.png" alt="code-img" />
+
+            <h3>Design & Development</h3>
+            <p>
+              I started learning to code ealry at my first university years as a
+              Electrical Engineer student. It was one of the most finanncially
+              viable things I could use to work without investing a lot in. Over
+              time, I have gained a wealth of experience designing and
+              developing from image processing to web applications.
+            </p>
+          </div>
+          <div class="skill-row">
             <img
               class="engineer-img"
               src="images/engineer-img.png"
               alt="engineer-img"
             />
-  
+
             <h3>Structural Engineering</h3>
             <p>
-              Civil engineering has been a passion since my first job as a Developer. While developing
-              CAD tools and Road element managment tools for a road engineering company I got the chance
-              to learn more about that fantastic area of structural design, which became my great obssession
-              as of late.
+              Civil engineering has been a passion since my first job as a
+              Developer. While developing CAD tools and Road element managment
+              tools for a road engineering company I got the chance to learn
+              more about that fantastic area of structural design, which became
+              my great obssession as of late.
             </p>
           </div>
-        <div class="skill-row">
-          <img
-            class="bike-img"
-            src="images/bike-img.png"
-            alt="bike-img"
-          />
+          <div class="skill-row">
+            <img class="bike-img" src="images/bike-img.png" alt="bike-img" />
 
-          <h3>Long bike rides</h3>
-          <p>
-            Have trained for many years now and I can proudly say that going for 100 km rides, 
-            even steep climbs have become a leisure at this point. Have circled around the whole 
-            Rio de Janeiro and even went a bit further at times.
-          </p>
+            <h3>Long bike rides</h3>
+            <p>
+              Have trained for many years now and I can proudly say that going
+              for 100 km rides, even steep climbs have become a leisure at this
+              point. Have circled around the whole Rio de Janeiro and even went
+              a bit further at times.
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
+
       <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <div class="contact-message">
-          <p>
-            If you love coding, concrete structures, civil engineering,
-            outdoor sports or reading as much as I do? 
-            Click below and get in touch.
-          </p>
-          <p>Cheers!</p>
+      <section id="contact-me">
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <div class="contact-message">
+            <p>
+              If you love coding, concrete structures, civil engineering,
+              outdoor sports or reading as much as I do? Click below and get in
+              touch.
+            </p>
+            <p>Cheers!</p>
+          </div>
+          <a class="contact-btn" href="mailto:outdoor.code.rider@gmail.com"
+            >CONTACT ME</a
+          >
         </div>
-        <a class="contact-btn" href="mailto:outdoor.code.rider@gmail.com">CONTACT ME</a>
-      </div>
+      </section>
     </div>
   </body>
 
   <footer>
     <div class="footer-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/jon-karl-weibull-37276549/">LinkedIn</a>
-      <a class="footer-link" href="https://www.radixeng.com.br/">Website</a>
-      <p class="copyright">© 2021 Jon Weibull @ Weibull.</p>
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://linkedin.com/in/jon-karl-weibull-37276549">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://jweibull.github.io/CV/">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/company/radix-engenharia-e-software/mycompany/verification/">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-laptop-house fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p id="copyright">Copyright &copy; Jon Weibull 2021</p>
+        </div>
+      </div>
     </div>
   </footer>
 </html>
